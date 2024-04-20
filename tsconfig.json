@@ -1,0 +1,12 @@
+
+{
+  "compilerOptions": {
+    "target": "es2018",  //ECMAScript 2018, also known as ES9 (ECMAScript 9th Edition)
+    "module": "commonjs",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+  },
+  "include": ["src/**/*.ts", "src/tests/apiMockTest.spec.js", "src/tests/apiTest.spec.js", "src/tests/contactTest.spec.js", "src/tests/fixtureTest.spec.js", "src/tests/loginTest.spec.js", "src/tests/oldTest.spec.js", "src/tests/SerialTest.spec.js", "src/tests/visTest.spec.js", "src/pages/CasePage.js", "src/pages/ContactPage.js", "src/pages/HomePage.js", "src/pages/LoginPage.js", "src/fixtures/loginFixture.js", "src/utils/CryptojsUtil.js", "src/utils/CsvtoJsonUtil.js", "src/utils/EncryptEnvFile.js", "src/utils/FakerDataUtil.js", "src/utils/fakersample.js", "src/utils/LoggerUtil.js", "src/utils/SelfHealingUtill.js"],
+  "exclude": ["node_modules"]
+}
